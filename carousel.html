@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="carousel.css" />
+    </head>
+
+    <body>
+        <div class="carousel">
+            <div class="carousel_item carousel_item--visible">  <!--this item visible means this is what shows on the screen as first item-->
+                <img src="images/lakeAtNight.jpg"/>
+            </div>
+
+            <div class="carousel_item">
+                <img src="images/sunThruTreesLake.jpg"/>
+            </div>
+
+            <div class="carousel_item">
+                <img src="images/treeOldMossHomes.jpg"/>
+            </div>
+
+            <div class="carousel_actions">
+                <button id="carousel_button--prev" aria-label="Previous slide"><</button>  <!--if want the word "Previous slide" change the "<""  and remove arial-label-->
+                <button id="carousel_button--next" aria-label="Next slide">></button>      <!--if want the word "Next slide" change the ">" and remove arial-label -->
+            </div>
+        </div>
+
+        <script src="carousel.js"></script>
+    </body>  
+</html>
